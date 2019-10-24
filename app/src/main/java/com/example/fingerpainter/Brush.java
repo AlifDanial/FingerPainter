@@ -21,7 +21,6 @@ public class Brush extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_brush);
-        SeekBar seekBar = findViewById(R.id.seekBar);
 
         shapes = findViewById(R.id.brush_group);
         width = findViewById(R.id.seekBar);
@@ -39,7 +38,7 @@ public class Brush extends AppCompatActivity {
             case SQUARE: shapes.check(R.id.squarebutton); break;
         }
 
-        width.setProgress(cwidth);
+        width.setProgress(cwidth); //update seekbar progress at every new intent
     }
 
 

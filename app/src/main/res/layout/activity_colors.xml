@@ -27,7 +27,7 @@
         android:backgroundTint="#4CAF50"
         android:onClick="setColor"
         android:text="@string/buttonGreen"
-        android:textColor="#3C3F41"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
