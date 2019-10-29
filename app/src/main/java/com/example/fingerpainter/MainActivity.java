@@ -43,13 +43,8 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
-//        if(android.content.Intent.ACTION_VIEW != null){
-//            Intent intent = new Intent();
-//            intent.setAction(android.content.Intent.ACTION_VIEW);
-//            Uri uri = Uri.parse("file://" + getAbsolutePath());
-//            intent.setDataAndType(uri,"image/*");
-//            myCanvas.load(intent.getData());
-//        }
+        Uri path = getIntent().getData();
+        if (path != null) myCanvas.load(path);
     }
 
     public void setColor(View view){    //method to open color activity and receive a result back
