@@ -10,4 +10,10 @@
     <string name="yellow">YELLOW</string>
     <string name="purple">PURPLE</string>
     <string name="black">BLACK</string>
+    <string name="set_brush_shape">Set Brush Shape</string>
+    <string name="set_brush_width">Set Brush Width</string>
+    <string name="save_changes">SAVE CHANGES</string>
+    <string name="circle">Circle</string>
+    <string name="round">ROUND</string>
+    <string name="square">SQUARE</string>
 </resources>

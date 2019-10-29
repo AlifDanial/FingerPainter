@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
-        android:text="Set Brush Shape"
+        android:text="@string/set_brush_shape"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="284dp"
-        android:text="Set Brush Width"
+        android:text="@string/set_brush_width"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="saveChanges"
-        android:text="SAVE CHANGES"
+        android:text="@string/save_changes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.788"
@@ -76,14 +76,14 @@
             android:id="@+id/circlebutton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Circle"
+            android:text="@string/round"
             android:textSize="18sp" />
 
         <RadioButton
             android:id="@+id/squarebutton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Square"
+            android:text="@string/square"
             android:textSize="18sp" />
     </RadioGroup>
 

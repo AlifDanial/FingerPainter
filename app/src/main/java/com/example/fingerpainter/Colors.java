@@ -18,22 +18,22 @@ public class Colors extends AppCompatActivity {
     public void setColor(View view){
         switch(view.getId()){
             case R.id.buttonGreen:
-                setResult(RESULT_OK, new Intent().putExtra("colors", Color.GREEN));
+                setResult(RESULT_OK, new Intent().putExtra("color", Color.GREEN));
                 break;
             case R.id.buttonRed:
-                setResult(RESULT_OK, new Intent().putExtra("colors", Color.RED));
+                setResult(RESULT_OK, new Intent().putExtra("color", Color.RED));
                 break;
             case R.id.buttonBlue:
-                setResult(RESULT_OK, new Intent().putExtra("colors", Color.BLUE));
+                setResult(RESULT_OK, new Intent().putExtra("color", Color.BLUE));
                 break;
             case R.id.buttonYellow:
-                setResult(RESULT_OK, new Intent().putExtra("colors", Color.YELLOW));
+                setResult(RESULT_OK, new Intent().putExtra("color", Color.YELLOW));
                 break;
             case R.id.buttonPurple:
-                setResult(RESULT_OK, new Intent().putExtra("colors", Color.parseColor("#7B1FA2")));
+                setResult(RESULT_OK, new Intent().putExtra("color", Color.parseColor("#7B1FA2")));
                 break;
             case R.id.buttonBlack:
-                setResult(RESULT_OK, new Intent().putExtra("colors", Color.BLACK));
+                setResult(RESULT_OK, new Intent().putExtra("color", Color.BLACK));
                 break;
 
 
