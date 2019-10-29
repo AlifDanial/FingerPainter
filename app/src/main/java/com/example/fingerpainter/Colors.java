@@ -12,11 +12,11 @@ public class Colors extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_colors);
+        setContentView(R.layout.activity_colors);   //open color activity
     }
 
-    public void setColor(View view){
-        switch(view.getId()){
+    public void setColor(View view){    //method to set color to pass to main activity
+        switch(view.getId()){           //switch to pass button through intent with color value to main activity
             case R.id.buttonGreen:
                 setResult(RESULT_OK, new Intent().putExtra("color", Color.GREEN));
                 break;
